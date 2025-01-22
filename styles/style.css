@@ -131,4 +131,106 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+   */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+  }
   
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 30%;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  .our-stories {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #fef6e4, #ffffff);
+}
+
+.our-stories h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column by default */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.story {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+
+.first-story {
+    grid-column: 1 / -1; /* Full width for the first story */
+}
+
+.stories-grid > .story:nth-child(n+2) {
+    grid-template-columns: repeat(2, 1ft)
+}
