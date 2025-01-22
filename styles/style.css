@@ -304,3 +304,28 @@ body {
     width: 50px;
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .curriculum .cards {
+        flex-direction: column;
+    }
+    .stories-grid {
+        grid-template-columns: 1fr;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
