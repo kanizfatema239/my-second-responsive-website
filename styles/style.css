@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(../assets/bg.png);
+}
+
+  .header {
+    background: #f9f9f9;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav ul li:nth-child(1) a {
+    color: orange; 
+}
+
+.nav ul li:nth-child(2) a {
+    color: skyblue;
+}
+
+.nav ul li:nth-child(3) a {
+    color: #05D4DF; 
+}
+
+.nav ul li:nth-child(4) a {
+    color: #5D58EF; 
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    
+}
+
+.contact-btn {
+    background: #ff9900;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 12px;
+    max-width: 197px;
+    margin: auto;
+    margin-left: 2rem;
+}
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  img{
+    height: 62px;
+    width: 62px;
+    opacity: 100%;
+  }
+
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    /* background-color: #f9f9f9; */
+  }
+
+  .hero-text{
+    flex: 1;
+    padding: 32px;
+    /* font-weight: bold; */
+    /* font-size: 56px; */
+  }
+
+  .hero-text h1{
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .hero-text p{
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+
+  .hero-text .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    
+}
+
+.hero-image {
+    flex: 1; 
+    display: flex;
+    gap: 1rem; 
+    justify-content: center;
+}
+.hero-image img {
+    width: 48%; /* Each image takes 48% of the width */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  
